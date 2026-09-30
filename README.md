@@ -4,7 +4,7 @@
 
 A Chinese-first frontend design skill for AI coding agents. Compare suitable visual directions and palettes before building websites, product interfaces, dashboards, data reports, and HTML presentations.
 
-CarlX Frontend 原名 `frontend-style-first`。它让 AI 先根据任务推荐 4–6 个有明确差异的风格，展示实际配色色块、用途和推荐理由；你选定方向后，再完成作品。
+它让 AI 先根据任务推荐 4–6 个有明确差异的风格，展示实际配色色块、用途和推荐理由；你选定方向后，再完成作品。
 
 ## 工作方式
 
