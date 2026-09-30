@@ -1,6 +1,6 @@
 # 来源与署名
 
-Carl Frontend 由 Channel-Carl 整理并发布，前身为 `frontend-style-first`。首次公开版本日期：2026-09-30。
+CarlX Frontend 由 Channel-Carl 整理并发布，前身为 `frontend-style-first`。首次公开版本日期：2026-09-30。
 
 本项目将任务驱动的风格选择、配色角色、内容布局、图表和动效规则整理为独立技能。参考资料的具体适配范围在各 `references/` 文件中记录；不分发第三方完整模板、报告 PDF、品牌 Logo、图片或字体文件。
 

@@ -1,10 +1,10 @@
 ---
-name: carl-frontend
+name: carlx-frontend
 description: 为网站、产品 UI、仪表盘、数据报告和 HTML 演示先推荐 4–6 个适合任务的风格并展示配色，等待用户选择后制作完整作品。支持根据内容设计版式和复杂图表，保持选定视觉体系。用于新建或整体重做前端作品；局部功能修复及沿用既有设计的增量编辑不启动风格选择。
 license: AGPL-3.0-only
 ---
 
-# Carl Frontend
+# CarlX Frontend
 
 先选风格，再完成前端设计。
 

@@ -1,10 +1,10 @@
-# Carl Frontend
+# CarlX Frontend
 
 **先选风格，再制作。风格保持一致，版式与图表适应内容。**
 
 A Chinese-first frontend design skill for AI coding agents. Compare suitable visual directions and palettes before building websites, product interfaces, dashboards, data reports, and HTML presentations.
 
-Carl Frontend 原名 `frontend-style-first`。它让 AI 先根据任务推荐 4–6 个有明确差异的风格，展示实际配色色块、用途和推荐理由；你选定方向后，再完成作品。
+CarlX Frontend 原名 `frontend-style-first`。它让 AI 先根据任务推荐 4–6 个有明确差异的风格，展示实际配色色块、用途和推荐理由；你选定方向后，再完成作品。
 
 ## 工作方式
 
@@ -28,47 +28,47 @@ Carl Frontend 原名 `frontend-style-first`。它让 AI 先根据任务推荐 4�
 
 ## 安装
 
-把整个仓库放入客户端支持的技能目录，目录名使用 `carl-frontend`，保留 `references/` 和 `scripts/`。
+把整个仓库放入客户端支持的技能目录，目录名使用 `carlx-frontend`，保留 `references/` 和 `scripts/`。
 
 ### 使用共享技能目录
 
 适用于已配置共享技能发现或客户端链接的环境：
 
 ```bash
-git clone https://github.com/Channel-Carl/carl-frontend.git ~/.agents/skills/carl-frontend
+git clone https://github.com/Channel-Carl/carlx-frontend.git ~/.agents/skills/carlx-frontend
 ```
 
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/Channel-Carl/carl-frontend.git "$env:USERPROFILE\.agents\skills\carl-frontend"
+git clone https://github.com/Channel-Carl/carlx-frontend.git "$env:USERPROFILE\.agents\skills\carlx-frontend"
 ```
 
 客户端已有自己的技能入口时，将入口链接到该共享目录。新安装后按客户端方式重新加载技能或开启新会话。
 
 ### 单客户端安装
 
-也可将仓库直接克隆到客户端的用户级技能目录，例如 Claude Code 的 `~/.claude/skills/carl-frontend` 或 Codex 的 `~/.codex/skills/carl-frontend`。同一台机器采用共享目录时，使用链接，避免维护多份独立副本。
+也可将仓库直接克隆到客户端的用户级技能目录，例如 Claude Code 的 `~/.claude/skills/carlx-frontend` 或 Codex 的 `~/.codex/skills/carlx-frontend`。同一台机器采用共享目录时，使用链接，避免维护多份独立副本。
 
-如果已有 `frontend-style-first`，先备份并将其目录及客户端入口改为 `carl-frontend`；避免同时启用两个相同规则的技能。
+如果已有 `frontend-style-first` 或 `carl-frontend`，先备份并将其目录及客户端入口改为 `carlx-frontend`；避免同时启用两个相同规则的技能。
 
 ## 使用示例
 
 支持 `$skill-name` 的客户端可显式调用：
 
 ```text
-使用 $carl-frontend 做一个科研仪器公司的官网。
+使用 $carlx-frontend 做一个科研仪器公司的官网。
 面向实验室采购人员，突出产品参数、应用场景和咨询入口。
 先推荐适合的风格并展示配色，等我选定后再制作。
 ```
 
 ```text
-使用 carl-frontend，把这份财报整理成 HTML 演示。
+使用 carlx-frontend，把这份财报整理成 HTML 演示。
 先推荐风格；选定后让各页版式与图表适应论证内容，加入语义动效。
 ```
 
 ```text
-使用 carl-frontend 做一个 SaaS 管理后台。
+使用 carlx-frontend 做一个 SaaS 管理后台。
 已有品牌蓝色，请沿用；其他视觉方向由你自行决定，直接制作。
 ```
 
@@ -83,7 +83,7 @@ git clone https://github.com/Channel-Carl/carl-frontend.git "$env:USERPROFILE\.a
 ## 文件结构
 
 ```text
-carl-frontend/
+carlx-frontend/
 ├── SKILL.md
 ├── references/
 │   ├── style-library.md
